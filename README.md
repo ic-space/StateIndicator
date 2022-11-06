@@ -1,4 +1,6 @@
-# Project template for rp2040-hal
+# StateIndicator
+
+The main purpose of this library is to provide us with indications of different events, for example system start up. This is done with an LED and buzzer which is built into our dev boards.
 
 This template is intended as a starting point for developing your own firmware based on the rp2040-hal.
 
