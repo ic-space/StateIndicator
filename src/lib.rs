@@ -41,7 +41,7 @@ pub mod state_model {
         let pins = Pins::new(peripherals.IO_BANK0,peripherals.PADS_BANK0,sio.gpio_bank0, &mut peripherals.RESETS);
         // The delay object lets us wait for specified amounts of time (in milliseconds)
         let delay = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().to_Hz());
-        return (delay, pins);
+        (delay, pins)
     }
 
     pub fn setup_blink<'a> (d : &'a mut Delay, p : &'a mut Pin<Gpio25, PushPullOutput>) {
