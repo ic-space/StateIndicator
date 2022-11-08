@@ -3,9 +3,9 @@
 
 // Ensure we halt the program on panic (if we don't mention this crate it won't
 // be linked)
+use ics_state_indicator::state_model;
 use panic_halt as _;
 use rp2040_hal::{gpio::bank0::Gpio25, gpio::Pin, gpio::PushPullOutput};
-use state_indicator::state_model;
 /// The linker will place this boot block at the start of our program image. We
 /// need this to help the ROM bootloader get our code up and running.
 /// Note: This boot block is not necessary when using a rp-hal based BSP
