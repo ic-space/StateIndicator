@@ -1,4 +1,4 @@
-# StateIndicator
+# State Indicator Driver
 [![CI Checks](https://github.com/icspaceai/StateIndicator/actions/workflows/ci_checks.yml/badge.svg?branch=main)](https://github.com/icspaceai/StateIndicator/actions/workflows/ci_checks.yml)
 
 The main purpose of this library is to provide us with indications of different events, for example system start up. This is done with an LED and buzzer which is built into our dev boards.
